@@ -1,0 +1,7 @@
+<p>home works!</p>
+<div *ngIf="livros.length > 0">
+    <p *ngFor="let livro of livros">
+        {{livro.titulo}}
+    </p>
+</div>
+<p *ngIf="livros.length == 0">Não foi possível buscar os livros</p>
