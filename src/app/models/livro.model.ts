@@ -9,7 +9,7 @@ export class Livro{
     public editora : string
     public edicao : number
     public categorias : string[]
-    public status : string
+    public Leiturastatus : string
     public dataLeituraFim : Date 
 }
 
